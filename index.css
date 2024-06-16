@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background-color: #1a1a2e;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+header .logo {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #555;
+}
+
+.banner {
+    background-color: #e0e5ec;
+    padding: 2em;
+    text-align: center;
+}
+
+.courses {
+    padding: 2em;
+    text-align: center;
+}
+
+.course-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.course-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #1a1a2e;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
